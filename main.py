@@ -7,7 +7,7 @@ config_dict = get_default_config()
 config_dict['language'] = 'ru'  # your language here, eg. Portuguese
 owm = OWM('920e2db9be67ebd77576e913394b42b1', config_dict)
 
-# Инициализируем библиотеку eel tyau fdfsfdsfsd
+# Инициализируем библиотеку eel
 eel.init('web')
 
 # Вызываемая Python функция с помощью JS
